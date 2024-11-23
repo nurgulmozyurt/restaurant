@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Foto's - Ons Restaurant</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lato:wght@300;700&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Header met navigatie -->
+  <header class="header">
+    <a href="index.html" class="logo">
+        <img src="foto.video/logo.jpg" alt="Logo">
+    </a>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="#menu" class="dropbtn">Menu</a>
+          <ul class="dropdown-content">
+            <li><a href="fotos.html">Foto's</a></li>
+            <li><a href="vacatures.html">Vacatures</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Foto-sectie -->
+  <section class="foto-sectie">
+    <h1>Foto's</h1>
+    <p>Bekijk enkele hoogtepunten van ons restaurant!</p>
+  </section>
+
+  <!-- Foto-galerij -->
+  <div class="media-grid">
+    <div><img src="foto.video/hamburger.jpg" alt="Foto 1"></div>
+    <div><img src="foto.video/snackbox.jpg" alt="Foto 2"></div>
+    <div><img src="foto.video/hotdog.jpg" alt="Foto 3"></div>
+  </div>
+
+  <!-- Tabelsectie -->
+  <section>
+    <h2>Galerij Overzicht</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Afbeelding</th>
+          <th>Beschrijving</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><img src="foto.video/hotdog.jpg" alt="Hotdog" width="100"></td>
+          <td>Onze heerlijke hotdog</td>
+        </tr>
+        <tr>
+          <td><img src="foto.video/hamburger.jpg" alt="Hamburger" width="100"></td>
+          <td>Populaire hamburger</td>
+        </tr>
+        <tr>
+          <td><img src="foto.video/snackbox.jpg" alt="Snackbox" width="100"></td>
+          <td>Heerlijke snackbox</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <footer id="contact">© 2024 RotterBite</footer>
+</body>
+</html>
