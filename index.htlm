@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RotterBite</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Lato:wght@300;700&display=swap" rel="stylesheet">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <a href="index.html" class="logo">
+      <img src="foto.video/logo.jpg" alt="Logo">
+    </a>
+    <nav>
+      <ul class="menu">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="#menu" class="dropbtn">Menu</a>
+          <ul class="dropdown-content">
+            <li><a href="fotos.html">Foto's</a></li>
+            <li><a href="vacatures.html">Vacatures</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="foto-sectie">
+    <h1>Welkom bij RotterBite</h1>
+  </section>
+
+  <section class="content">
+    <h2 class="visually-hidden">Informatie over RotterBite</h2>
+    <div>Welkom bij RotterBite, jouw nieuwe favoriete restaurant in Rotterdam! Bij ons geniet je van heerlijke gerechten, vers bereid met liefde en passie.</div>
+    <div>RotterBite brengt je lekkere smaken. Of je nu zin hebt in een sappige hamburger, een smakelijke hotdog of heerlijke snacks, bij ons geniet je van snelle, smaakvolle maaltijden die altijd met zorg worden bereid.</div>
+  </section>
+
+  <section class="media-grid">
+    <h2 class="visually-hidden">Media en Galerij</h2>
+    <div>
+      <img src="foto.video/hotdog.jpg" alt="Hotdog">
+    </div>
+    <div>
+      <img src="foto.video/hamburger.jpg" alt="Hamburger">
+    </div>
+    <div>
+      <video controls>
+        <source src="foto.video/hamburger.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div>
+      <img src="foto.video/snackbox.jpg" alt="Snackbox">
+    </div>
+    <div>
+      <iframe 
+        src="https://www.youtube.com/embed/N47kapFfXl0" 
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+    </div>
+  </section>
+
+  <section class="plaatjes">
+    <h2 class="visually-hidden">Plaatjes en Diensten</h2>
+    <div class="plaatje">
+      <div class="plaatje-wrapper">
+        <img src="foto.video/menukaart.webp" alt="Menu">
+        <p>Menukaart</p>
+      </div>
+    </div>
+    <div class="plaatje">
+      <div class="plaatje-wrapper">
+        <img src="foto.video/fotohoek.jpg" alt="Fotohoek">
+        <p>Fotohoek</p>
+      </div>
+    </div>
+    <div class="plaatje">
+      <div class="plaatje-wrapper">
+        <img src="foto.video/dozen.jpg" alt="Verpakkingen">
+        <p>Verpakkingen</p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">© 2024 RotterBite</footer>
+</body>
+</html>
